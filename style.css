@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url(./SourceSansPro-Black.otf);
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #73879c;
+  background-color: #283645;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.header{
+  background-color: #F5F7FA;
+  border-bottom: 1px solid #e6e9ed;
+  font-size: 12px;
+}
+
+.header a,
+.footer a{
+    color: #73879c;
+    text-decoration: none;
+}
+
+.header a:hover,
+.footer a:hover{
+  color: #1abb9c;
+}
+
+.menu{
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.stickyMenu{
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 2000;
+}
+
+.menu a{
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #506a85;
+  padding: 15px 20px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 3px;
+}
+
+.first{
+  background-image: url(./leds-1175112_blur.jpg);
+  height: 61vh;
+}
+
+.first h1{
+  line-height: 115%;
+  font-size: 50px;
+  color: white;
+}
+
+.first button{
+  font-size: 16px !important;
+  background-color: #1abb9c !important;
+}
+
+.capitalize{
+  text-transform: uppercase;
+}
+
+.second{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+.second i{
+  font-size: 50px;
+  color:#1abb9c;
+}
+
+.third{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color:  #F5F7FA;
+}
+
+.third img{
+  height: 60vh;
+}
+
+.carousel-indicators li{
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 50% !important;
+  background-color:grey;
+}
+
+.carousel-indicators li.active{
+  background-color:green;
+}
+
+.fourth{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color:  white;
+}
+
+.fifth{
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #2F4052;
+}
+
+.fifth h2{
+  color: white;
+}
+
+.footer{
+  font-size: 14px;
+}
+
+.black-shadow{
+  text-shadow: 3px 3px 3px #000000;
+}
+
+.hover-styling:hover{
+  background-color: #E9ECEF;
+  color: rgb(30,33,37);
+}
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display: inline;
+}
+
+@media screen and (max-width: 600px) {
+  .footer{
+    margin-right:10px;
+    margin-left: 10px;
+  }
+
+  .fifth{
+    padding-top:25px;
+    padding-bottom: 25px;
+  }
+
+  .fourth{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .third{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .second{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .second i{
+  font-size: 40px;
+}
+
+.first h1{
+  line-height: 115%;
+  font-size: 40px;
+  color: white;
+}
+}
