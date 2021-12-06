@@ -2,112 +2,258 @@
 <html lang="en">
 
 <head>
-  <title>LDES</title>
-  <meta name="description" content="LDES">
-  <meta name="keywords" content="LDES">
+    <title>LDES</title>
+    <meta name="description" content="LDES">
+    <meta name="keywords" content="LDES">
 
-  <!-- Responsivity -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Responsivity -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-  <!-- Bootstrap and jquery -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Bootstrap and jquery -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="./style.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <div class="header" id="header">
-    <div class="d-flex justify-content-around align-items-center">
-      <div class="p-2">
-        <a href="#">
-          <i class="bi-chat"></i>
-          info@ldes.com
-          </i>
-        </a>
-        <a href="#" class="p-2">
-          <i class="bi-phone"></i>
-          +420 608 815 479
-          </i>
-        </a>
-      </div>
-      <div class="px-2">
-        <i class="bi-facebook mx-1"></i>
-        <i class="bi-whatsapp mx-1"></i>
-        <i class="bi-instagram mx-1"></i>
-        <i class="bi-twitter mx-1"></i>
-      </div>
+    <div class="header" id="header">
+        <div class="d-flex justify-content-around align-items-center">
+            <div class="p-2">
+                <a href="#">
+                    <i class="bi-chat"></i>
+                    info@ldes.com
+                    </i>
+                </a>
+                <a href="#" class="p-2">
+                    <i class="bi-phone"></i>
+                    +420 608 815 479
+                    </i>
+                </a>
+            </div>
+            <div class="px-2">
+                <i class="bi-facebook mx-1"></i>
+                <i class="bi-whatsapp mx-1"></i>
+                <i class="bi-instagram mx-1"></i>
+                <i class="bi-twitter mx-1"></i>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="menu" id="menu">
-    <div class="d-flex justify-content-around align-items-center">
-      <img src="ldes.svg" alt style="height: 40px;">
-      <div>
-        <a class="hover-styling mx-1" href="index.html">Home</a>
-        <span class="dropdown mx-1">
-          <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Articles
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li><a class="dropdown-item" href="articles_development.html">Development</a></li>
-            <li><a class="dropdown-item" href="articles_marketing.html">Marketing</a></li>
-          </ul>
-        </span>
-        <a href="launch.html" class="mx-1 hover-styling">Launch</a>
-        <a href="contact.html" class="mx-1 hover-styling">Contact</a>
-      </div>
+    <div class="menu" id="menu">
+        <div class="d-flex justify-content-around align-items-center">
+            <img src="pictures/ldes.svg" alt style="height: 40px;">
+            <div>
+                <a class="hover-styling mx-1" href="index.html">Home</a>
+                <span class="dropdown mx-1">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Articles
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="articles_development.html">Development</a></li>
+                        <li><a class="dropdown-item" href="articles_marketing.html">Marketing</a></li>
+                    </ul>
+                </span>
+                <a href="launch.html" class="mx-1 hover-styling">Launch</a>
+                <a href="contact.html" class="mx-1 hover-styling">Contact</a>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="footer py-4">
-    <div class="d-flex justify-content-around align-items-center">
-      <div>
-        &copy;
-        <script>document.write(new Date().getFullYear())</script>
-        LDES. All rights reserved.
-      </div>
-      <div>
-        <a href="index.html">Home</a>
-        <i class="bi bi-dot"></i>
-        <a href="articles.html">Articles</a>
-        <i class="bi bi-dot"></i>
-        <a href="launch.html">Launch</a>
-        <i class="bi bi-dot"></i>
-        <a href="contact.html">Contact</a>
-      </div>
+    <div class="third text-center px-2">
+        <h1>List of our development articles</h1>
+        <div class="list-group col-md-3 mx-auto pt-2">
+            <a href="#article1" class="list-group-item list-group-item-action">LED Density & Power Draw</a>
+            <a href="#article2" class="list-group-item list-group-item-action">Determining LED Strip Brightness</a>
+            <a href="#article3" class="list-group-item list-group-item-action">LED strip color options: white</a>
+            <a href="#article4" class="list-group-item list-group-item-action">Aluminium channels & heatsinking</a>
+        </div>
     </div>
-  </div>
-  <!-- JS scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <script>
-    var header = document.getElementById("header");
-    window.onscroll = function () {
-      getMyStickyHeader()
-    };
-    var menu = document.getElementById("menu");
-    var stickyHeader = menu.offsetTop;
-    var headerOffset = header.offsetTop;
-    function getMyStickyHeader() {
-      if (window.innerWidth <= 600) {
-        menu.classList.remove("stickyMenu");
-        return null;
-      }
+    <div class="fourth">
+        <div class="col-md-10 card mx-auto my-4">
+            <h2 id="article1">LED Density & Power Draw</h2>
+            <p>LED strip lights are available in various shades of whites or colors. Generally, white light is the most
+                useful and
+                popular option for indoor lighting applications.
 
-      if (window.pageYOffset >= stickyHeader) {
-        menu.classList.add("stickyMenu")
-      } else {
-        menu.classList.remove("stickyMenu");
-      }
-    }
-  </script>
+                In describing the different shades and qualities of white, color temperature (CCT) and color rendering
+                index (CRI) are
+                two metrics that are important to keep in mind.
+
+                Color temperature is a measure of how "warm" or "cool" the light's color appears. The soft glow of a
+                traditional
+                incandescent bulb has a low color temperature (2700K), while the crisp, bright white of natural daylight
+                has a high
+                color temperature (6500K).
+
+                Color rendering is a measure of how accurate colors appear under the light source. Under a low CRI LED
+                strip, colors
+                might appear distorted, washed out, or indistinguishable. High CRI LED products offer light that allows
+                objects to
+                appear the way they would under an ideal light source such as a halogen lamp, or natural daylight. Also
+                look for a light
+                source's R9 value, which provides further information about how red colors are rendered.
+
+                Need help deciding which color temperature to choose? See our tutorial here.
+
+                Adjust the sliders below for a visual demonstration of CRI vs CCT in action.</p>
+        </div>
+        <div class="col-md-10 card mx-auto my-4">
+            <h2 id="article2">Determining LED Strip Brightness</h2>
+            <p>LED strip lights are available in various shades of whites or colors. Generally, white light is the most
+                useful and
+                popular option for indoor lighting applications.
+
+                In describing the different shades and qualities of white, color temperature (CCT) and color rendering
+                index (CRI) are
+                two metrics that are important to keep in mind.
+
+                Color temperature is a measure of how "warm" or "cool" the light's color appears. The soft glow of a
+                traditional
+                incandescent bulb has a low color temperature (2700K), while the crisp, bright white of natural daylight
+                has a high
+                color temperature (6500K).
+
+                Color rendering is a measure of how accurate colors appear under the light source. Under a low CRI LED
+                strip, colors
+                might appear distorted, washed out, or indistinguishable. High CRI LED products offer light that allows
+                objects to
+                appear the way they would under an ideal light source such as a halogen lamp, or natural daylight. Also
+                look for a light
+                source's R9 value, which provides further information about how red colors are rendered.
+
+                Need help deciding which color temperature to choose? See our tutorial here.
+
+                Adjust the sliders below for a visual demonstration of CRI vs CCT in action.</p>
+        </div>
+        <div class="col-md-10 card mx-auto my-4">
+            <h2 id="article3">LED strip color options: white</h2>
+            <p>LED strip lights are available in various shades of whites or colors. Generally, white light is the most
+                useful and
+                popular option for indoor lighting applications.
+
+                In describing the different shades and qualities of white, color temperature (CCT) and color rendering
+                index (CRI) are
+                two metrics that are important to keep in mind.
+
+                Color temperature is a measure of how "warm" or "cool" the light's color appears. The soft glow of a
+                traditional
+                incandescent bulb has a low color temperature (2700K), while the crisp, bright white of natural daylight
+                has a high
+                color temperature (6500K).
+
+                Color rendering is a measure of how accurate colors appear under the light source. Under a low CRI LED
+                strip, colors
+                might appear distorted, washed out, or indistinguishable. High CRI LED products offer light that allows
+                objects to
+                appear the way they would under an ideal light source such as a halogen lamp, or natural daylight. Also
+                look for a light
+                source's R9 value, which provides further information about how red colors are rendered.
+
+                Need help deciding which color temperature to choose? See our tutorial here.
+
+                Adjust the sliders below for a visual demonstration of CRI vs CCT in action.</p>
+        </div>
+        <div class="col-md-10 card mx-auto my-4">
+            <h2 id="article4">Aluminium channels & heatsinking</h2>
+            <p>
+                Despite their versatility and ease of use, LED strips are nonetheless bare circuitboard components.
+                Mounting
+                the LED
+                strips inside of an aluminum channel, along with a diffuser cover, can significantly improve the
+                aesthetics
+                of a
+                lighting installation.
+
+                Aluminum channels are typically long pieces of extruded aluminum in a U or V shape. The LED strip is
+                them
+                placed and
+                secured (using the double sided tape) at the bottom of the channel. A long piece of frosted
+                polycarbonate
+                plastic
+                (typically provided with the aluminum channel) then snaps onto the top of the aluminum channel.
+
+                You may have correctly read elsewhere that LEDs need effective thermal management for reliable
+                operation.
+                Higher quality
+                LED strip light products actually underdrive the LEDs, and are designed to last tens of thousands of
+                hours
+                without any
+                heatsinking. During operation, the LED strip can get warm to the touch, but the temperature rise is far
+                below the
+                thermal limits of the LEDs and circuitboard components. (Our products typically exhibit temperature
+                rises of
+                55 F or 30
+                C over ambient temperatures, without any heatsinking).
+
+                The aluminum channels may help dissipate the heat from the LED strips, but for the most part they are
+                not
+                necessary for
+                thermal management and are primarily for mounting and diffusion purposes.
+            </p>
+        </div>
+    </div>
+    <div class="footer py-4">
+        <div class="d-flex justify-content-around align-items-center">
+            <div>
+                &copy;
+                <script>document.write(new Date().getFullYear())</script>
+                LDES. All rights reserved.
+            </div>
+            <div>
+                <a href="index.html">Home</a>
+                <i class="bi bi-dot"></i>
+                <a href="articles.html">Articles</a>
+                <i class="bi bi-dot"></i>
+                <a href="launch.html">Launch</a>
+                <i class="bi bi-dot"></i>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+    <!-- JS scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script>
+        var header = document.getElementById("header");
+        window.onscroll = function () {
+            getMyStickyHeader()
+        };
+        var menu = document.getElementById("menu");
+        var stickyHeader = menu.offsetTop;
+        var headerOffset = header.offsetTop;
+        function getMyStickyHeader() {
+            if (window.innerWidth <= 600) {
+                menu.classList.remove("stickyMenu");
+                return null;
+            }
+
+            if (window.pageYOffset >= stickyHeader) {
+                menu.classList.add("stickyMenu")
+            } else {
+                menu.classList.remove("stickyMenu");
+            }
+        }
+    </script>
+    <!-- Smooth scrolling -->
+    <script>
+        let $root = $('html, body');
+        $('a[href^="#"]').click(function () {
+            let href = $.attr(this, 'href');
+            $root.animate({
+                scrollTop: $(href).offset().top
+            }, 500, function () {
+                window.location.hash = href;
+            });
+            return false;
+        });
+    </script>
 </body>
 
 </html>

@@ -36,9 +36,14 @@ body{
 
 .stickyMenu{
   position: fixed;
+  height: 100px;
   width: 100%;
   top:0;
   z-index: 2000;
+}
+
+html{
+scroll-padding-top: 200px; /* height of sticky header */
 }
 
 .menu a{
