@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>HOV0026 - project A</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+    integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <div class="container mt-4">
+    <h1 class="text-center">Cryptocurrency search chart</h1>
+  </div>
+  <div class="text-center mx-auto col-lg-3">
+    <div class="form-group mt-4">
+      <label for="selected_coin">Select desired coin</label>
+      <input class="form-control" list="brow" id="selected_coin">
+      <datalist id="brow">
+      </datalist>
+    </div>
+    <div class="form-group">
+      <label for="data_points">Data points</label>
+      <input type="number" class="form-control" id="data_points" value="10">
+    </div>
+    <div class="form-group">
+      <button type="button" class="btn btn-primary" onclick="submitClicked()">Load data</button>
+    </div>
+  </div>
+  <div class="col-lg-6 mx-auto p-4">
+    <div class="card p-2 mt-2 text-center">
+      <h4>Social volume in time for selected cryptocurrency</h4>
+      <canvas id="line_chart_social" style="width:100%;max-width:700px"></canvas>
+    </div>
+    <div class="card p-2 mt-2 text-center">
+      <h4>Close price in time for selected cryptocurrency</h4>
+      <canvas id="line_chart_price" style="width:100%;max-width:700px"></canvas>
+    </div>
+    <div class="card p-2 mt-2 text-center">
+      <h4>Social volume for different cryptocurrencies</h4>
+      <canvas id="doughnut_chart" style="width:100%;max-width:700px"></canvas>
+    </div>
+  </div>
+
+  <div class="loading style-2">
+    <div class="loading-wheel">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
